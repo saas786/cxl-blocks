@@ -1,0 +1,32 @@
+{
+    "name": "cxl/blocks",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Leho Kraav",
+            "email": "leho@conversionxl.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/conversionxl/phpcs-ruleset"
+        }
+    ],
+    "require": {
+        "php" : ">=5.6"
+    },
+    "require-dev": {
+        "cxl/phpcs-ruleset": "dev-master",
+        "vimeo/psalm": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "CXL\\Blocks\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev"
+}
