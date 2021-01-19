@@ -5,11 +5,10 @@
 *.patch
 *.sw*
 *.map
-composer.lock
-package-lock.json
-yarn.lock
 dist/
 node_modules/
 vendor/
 .idea
 public/
+resources/lang
+cxl-blocks

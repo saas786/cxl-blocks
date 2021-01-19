@@ -16,29 +16,45 @@ return [
 		'_builtin'         => true,
 		'_internal'        => true,
 	],
-	'1c-fluid'  => [
-		'label'      => __( 'Content Wide', 'content layout', 'cxl-blocks' ), // Full Width Content
-		'type'       => [ 'site' ],
-		'post_types' => [ 'post', 'page' ],
-	],
 	'1c'        => [
-		'label'      => __( 'Content Boxed', 'content layout', 'cxl-blocks' ),
+		'label'      => esc_html_x( '1-column, Content Wide', 'content layout', 'cxl-blocks' ),
 		'type'       => [ 'site' ],
 		'post_types' => [ 'post', 'page' ],
 	],
-	'1c-narrow' => [
-		'label'      => __( 'Content Narrow', 'content layout', 'cxl-blocks' ),
+	'1c-w'        => [
+		'label'      => esc_html_x( '1-column, Content Wide (deprecated)', 'content layout', 'cxl-blocks' ),
+		'type'       => [ 'site' ],
+		'post_types' => [ 'post', 'page' ],
+	],
+	'1c-fluid'  => [
+		'label'      => esc_html_x( '1-column, Content Full Width', 'content layout', 'cxl-blocks' ),
+		'type'       => [ 'site' ],
+		'post_types' => [ 'post', 'page' ],
+	],
+	'1c-c' => [
+		'label'      => esc_html_x( '1-column, Content Narrow (deprecated)', 'content layout', 'cxl-blocks' ),
 		'type'       => [ 'site' ],
 		'post_types' => [ 'post', 'page' ],
 		'is_default' => true,
 	],
+	'1c-narrow' => [
+		'label'      => esc_html_x( '1-column, Content Narrow', 'content layout', 'cxl-blocks' ),
+		'type'       => [ 'site' ],
+		'post_types' => [ 'post', 'page' ],
+		'is_default' => true,
+	],
+	'2c'      => [
+		'label'      => esc_html_x( '2-column, commons', 'content layout', 'cxl-blocks' ),
+		'type'       => [ 'site' ],
+		'post_types' => [ 'post', 'page' ],
+	],
 	'2c-l'      => [
-		'label'      => __( 'Content, Primary Sidebar', 'content layout', 'cxl-blocks' ),
+		'label'      => esc_html_x( '2-column, content left', 'content layout', 'cxl-blocks' ),
 		'type'       => [ 'site' ],
 		'post_types' => [ 'post', 'page' ],
 	],
 	'2c-r'      => [
-		'label'      => __( 'Primary Sidebar, Content', 'content layout', 'cxl-blocks' ),
+		'label'      => esc_html_x( '2-column, content right', 'content layout', 'cxl-blocks' ),
 		'type'       => [ 'site' ],
 		'post_types' => [ 'post', 'page' ],
 	],
