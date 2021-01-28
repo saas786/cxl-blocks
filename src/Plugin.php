@@ -14,7 +14,6 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Main class
  *
- * @psalm-suppress UndefinedTrait
  */
 final class Plugin {
 
@@ -68,12 +67,31 @@ final class Plugin {
 		$this->plugin_dir_url  = plugin_dir_url( __FILE__ );
 		$this->slug            = basename( $this->plugin_dir_path );
 
+		// Load translations.
+		add_action( 'plugins_loaded', [ $this, 'loadTextdomain' ], 1 );
+
 		// Run.
 		add_action( 'plugins_loaded', [ $this, 'init' ], 3 );
 	}
 
 	/**
-	 * Init
+	 * Load the plugin textdomain.
+	 *
+	 * @since  2021.01.28
+	 * @access public
+	 * @return void
+	 */
+	public function loadTextdomain(): void {
+
+		load_plugin_textdomain(
+			'cxl-blocks',
+			false,
+			trailingslashit( dirname( plugin_basename( CXL_BLOCKS_PLUGIN_FILE ) ) ) . '/public/lang'
+		);
+	}
+
+	/**
+	 * @inheritDoc
 	 */
 	public function init(): void {
 		// ------------------------------------------------------------------------------
@@ -105,7 +123,6 @@ final class Plugin {
 		}
 
 		return self::$instance;
-
 	}
 
 }
