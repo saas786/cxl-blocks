@@ -13,23 +13,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/amp.git",
-                "reference": "dbb3c28ece24b36efa91be205f6f0b015bddc27c"
+                "reference": "7d4bbc6e0b47c6bb39b6cce1a4b5942e0c5125fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/amphp/amp/zipball/dbb3c28ece24b36efa91be205f6f0b015bddc27c",
-                "reference": "dbb3c28ece24b36efa91be205f6f0b015bddc27c",
+                "url": "https://api.github.com/repos/amphp/amp/zipball/7d4bbc6e0b47c6bb39b6cce1a4b5942e0c5125fb",
+                "reference": "7d4bbc6e0b47c6bb39b6cce1a4b5942e0c5125fb",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7"
+                "php": ">=7.1"
             },
             "require-dev": {
                 "amphp/php-cs-fixer-config": "dev-master",
                 "amphp/phpunit-util": "^1",
                 "ext-json": "*",
                 "jetbrains/phpstorm-stubs": "^2019.3",
-                "phpunit/phpunit": "^6.0.9 | ^7",
+                "phpunit/phpunit": "^7 | ^8 | ^9",
                 "psalm/phar": "^3.11@dev",
                 "react/promise": "^2"
             },
@@ -89,7 +89,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-11-14T16:44:06+00:00"
+            "time": "2021-01-13T19:16:50+00:00"
         },
         {
             "name": "amphp/byte-stream",
@@ -372,17 +372,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/conversionxl/phpcs-ruleset.git",
-                "reference": "3d60d12175a7e88f08984533b3f924f0ac0c3648"
+                "reference": "86466247fb3351824b85be5138a40dc23e064fe1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/conversionxl/phpcs-ruleset/zipball/3d60d12175a7e88f08984533b3f924f0ac0c3648",
-                "reference": "3d60d12175a7e88f08984533b3f924f0ac0c3648",
+                "url": "https://api.github.com/repos/conversionxl/phpcs-ruleset/zipball/86466247fb3351824b85be5138a40dc23e064fe1",
+                "reference": "86466247fb3351824b85be5138a40dc23e064fe1",
                 "shasum": ""
             },
             "require": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
-                "sirbrillig/phpcs-variable-analysis": "^v3.0.0-beta.7",
+                "sirbrillig/phpcs-variable-analysis": "^v2.10.1",
                 "wp-coding-standards/wpcs": "^2.3"
             },
             "bin": [
@@ -399,7 +399,7 @@
                 "source": "https://github.com/conversionxl/phpcs-ruleset/tree/master",
                 "issues": "https://github.com/conversionxl/phpcs-ruleset/issues"
             },
-            "time": "2020-10-16T12:27:30+00:00"
+            "time": "2021-01-11T14:11:48+00:00"
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
@@ -502,25 +502,25 @@
         },
         {
             "name": "felixfbecker/advanced-json-rpc",
-            "version": "v3.1.1",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/felixfbecker/php-advanced-json-rpc.git",
-                "reference": "0ed363f8de17d284d479ec813c9ad3f6834b5c40"
+                "reference": "06f0b06043c7438959dbdeed8bb3f699a19be22e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/felixfbecker/php-advanced-json-rpc/zipball/0ed363f8de17d284d479ec813c9ad3f6834b5c40",
-                "reference": "0ed363f8de17d284d479ec813c9ad3f6834b5c40",
+                "url": "https://api.github.com/repos/felixfbecker/php-advanced-json-rpc/zipball/06f0b06043c7438959dbdeed8bb3f699a19be22e",
+                "reference": "06f0b06043c7438959dbdeed8bb3f699a19be22e",
                 "shasum": ""
             },
             "require": {
                 "netresearch/jsonmapper": "^1.0 || ^2.0",
-                "php": ">=7.0",
-                "phpdocumentor/reflection-docblock": "^4.0.0 || ^5.0.0"
+                "php": "^7.1 || ^8.0",
+                "phpdocumentor/reflection-docblock": "^4.3.4 || ^5.0.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6.0.0"
+                "phpunit/phpunit": "^7.0 || ^8.0"
             },
             "type": "library",
             "autoload": {
@@ -539,7 +539,7 @@
                 }
             ],
             "description": "A more advanced JSONRPC implementation",
-            "time": "2020-03-11T15:21:41+00:00"
+            "time": "2021-01-10T17:48:47+00:00"
         },
         {
             "name": "felixfbecker/language-server-protocol",
@@ -741,75 +741,6 @@
             "time": "2019-03-29T20:06:56+00:00"
         },
         {
-            "name": "phpcsstandards/phpcsutils",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/PHPCSStandards/PHPCSUtils.git",
-                "reference": "3f1a79a35256b41ac5481ab743d04c144365db30"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHPCSUtils/zipball/3f1a79a35256b41ac5481ab743d04c144365db30",
-                "reference": "3f1a79a35256b41ac5481ab743d04c144365db30",
-                "shasum": ""
-            },
-            "require": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.1 || ^0.5 || ^0.6.2 || ^0.7",
-                "php": ">=5.4",
-                "squizlabs/php_codesniffer": "^2.6.0 || ^3.1.0 || 4.0.x-dev@dev"
-            },
-            "conflict": {
-                "squizlabs/php_codesniffer": "3.5.3"
-            },
-            "require-dev": {
-                "php-parallel-lint/php-console-highlighter": "^0.5",
-                "php-parallel-lint/php-parallel-lint": "^1.2.0",
-                "phpunit/phpunit": "~4.5 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || >=9.0 <9.3.0"
-            },
-            "type": "phpcodesniffer-standard",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev",
-                    "dev-develop": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "PHPCSUtils/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Juliette Reinders Folmer",
-                    "homepage": "https://github.com/jrfnl",
-                    "role": "lead"
-                },
-                {
-                    "name": "Contributors",
-                    "homepage": "https://github.com/PHPCSStandards/PHPCSUtils/graphs/contributors"
-                }
-            ],
-            "description": "A suite of utility functions for use with PHP_CodeSniffer",
-            "homepage": "https://phpcsutils.com/",
-            "keywords": [
-                "PHP_CodeSniffer",
-                "phpcbf",
-                "phpcodesniffer-standard",
-                "phpcs",
-                "phpcs2",
-                "phpcs3",
-                "standards",
-                "tokens",
-                "utility"
-            ],
-            "time": "2020-12-22T22:19:10+00:00"
-        },
-        {
             "name": "phpdocumentor/reflection-common",
             "version": "dev-master",
             "source": {
@@ -916,12 +847,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "6a467b8989322d92aa1c8bf2bebcc6e5c2ba55c0"
+                "reference": "6759f2268deb9f329812679e9dcb2d0083b2a30b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/6a467b8989322d92aa1c8bf2bebcc6e5c2ba55c0",
-                "reference": "6a467b8989322d92aa1c8bf2bebcc6e5c2ba55c0",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/6759f2268deb9f329812679e9dcb2d0083b2a30b",
+                "reference": "6759f2268deb9f329812679e9dcb2d0083b2a30b",
                 "shasum": ""
             },
             "require": {
@@ -953,7 +884,7 @@
                 }
             ],
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
-            "time": "2020-09-17T18:55:26+00:00"
+            "time": "2021-02-02T21:09:27+00:00"
         },
         {
             "name": "psr/container",
@@ -1057,12 +988,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/diff.git",
-                "reference": "33f7bf3c1741b2a10e16d5c41c369c402b933e4c"
+                "reference": "492912a4b41de6a0127ebcd2f766b7d7f10f574c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/33f7bf3c1741b2a10e16d5c41c369c402b933e4c",
-                "reference": "33f7bf3c1741b2a10e16d5c41c369c402b933e4c",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/492912a4b41de6a0127ebcd2f766b7d7f10f574c",
+                "reference": "492912a4b41de6a0127ebcd2f766b7d7f10f574c",
                 "shasum": ""
             },
             "require": {
@@ -1111,28 +1042,28 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-01-02T06:21:47+00:00"
+            "time": "2021-01-31T06:05:32+00:00"
         },
         {
             "name": "sirbrillig/phpcs-variable-analysis",
-            "version": "v3.0.0-beta.8",
+            "version": "2.10.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sirbrillig/phpcs-variable-analysis.git",
-                "reference": "b77e69e5b140b4f545798253ec1d5cf64f86dd58"
+                "reference": "0775e0c683badad52c03b11c2cd86a9fdecb937a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sirbrillig/phpcs-variable-analysis/zipball/b77e69e5b140b4f545798253ec1d5cf64f86dd58",
-                "reference": "b77e69e5b140b4f545798253ec1d5cf64f86dd58",
+                "url": "https://api.github.com/repos/sirbrillig/phpcs-variable-analysis/zipball/0775e0c683badad52c03b11c2cd86a9fdecb937a",
+                "reference": "0775e0c683badad52c03b11c2cd86a9fdecb937a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
-                "phpcsstandards/phpcsutils": "^1.0",
                 "squizlabs/php_codesniffer": "^3.5"
             },
             "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
                 "limedeck/phpunit-detailed-printer": "^3.1 || ^4.0 || ^5.0",
                 "phpstan/phpstan": "^0.11.8",
                 "phpunit/phpunit": "^5.0 || ^6.5 || ^7.0 || ^8.0",
@@ -1159,7 +1090,7 @@
                 }
             ],
             "description": "A PHPCS sniff to detect problems with variables.",
-            "time": "2020-11-23T17:43:14+00:00"
+            "time": "2021-01-08T16:31:05+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -1167,12 +1098,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "9bcb29cce831a8f9b2c8aee0bba1a57445f9dbf1"
+                "reference": "2da6904087d28af217b430a2cb4d8fcca4b9f5be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/9bcb29cce831a8f9b2c8aee0bba1a57445f9dbf1",
-                "reference": "9bcb29cce831a8f9b2c8aee0bba1a57445f9dbf1",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/2da6904087d28af217b430a2cb4d8fcca4b9f5be",
+                "reference": "2da6904087d28af217b430a2cb4d8fcca4b9f5be",
                 "shasum": ""
             },
             "require": {
@@ -1210,7 +1141,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2020-12-15T02:38:00+00:00"
+            "time": "2021-02-01T06:06:08+00:00"
         },
         {
             "name": "symfony/console",
@@ -1218,12 +1149,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "5a8ebe413fbd4091d5b3c5b70e298141681c59c7"
+                "reference": "56d4c04ca6069c93857c7335a626dbe747fa82d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/5a8ebe413fbd4091d5b3c5b70e298141681c59c7",
-                "reference": "5a8ebe413fbd4091d5b3c5b70e298141681c59c7",
+                "url": "https://api.github.com/repos/symfony/console/zipball/56d4c04ca6069c93857c7335a626dbe747fa82d4",
+                "reference": "56d4c04ca6069c93857c7335a626dbe747fa82d4",
                 "shasum": ""
             },
             "require": {
@@ -1282,7 +1213,7 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony Console Component",
+            "description": "Eases the creation of beautiful and testable command line interfaces",
             "homepage": "https://symfony.com",
             "keywords": [
                 "cli",
@@ -1304,7 +1235,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-01T09:27:20+00:00"
+            "time": "2021-01-28T22:09:26+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1312,12 +1243,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "7130f348df2f842044038aaae9d6653dc9d67649"
+                "reference": "c6c942b1ac76c82448322025e084cadc56048b4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/7130f348df2f842044038aaae9d6653dc9d67649",
-                "reference": "7130f348df2f842044038aaae9d6653dc9d67649",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/c6c942b1ac76c82448322025e084cadc56048b4e",
+                "reference": "c6c942b1ac76c82448322025e084cadc56048b4e",
                 "shasum": ""
             },
             "require": {
@@ -1329,7 +1260,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.21-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1380,7 +1311,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-27T09:28:48+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
@@ -1388,12 +1319,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
-                "reference": "e314d4992832c3a0a68ca731fadd959917320fda"
+                "reference": "267a9adeb8ecb8071040a740930e077cdfb987af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/e314d4992832c3a0a68ca731fadd959917320fda",
-                "reference": "e314d4992832c3a0a68ca731fadd959917320fda",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/267a9adeb8ecb8071040a740930e077cdfb987af",
+                "reference": "267a9adeb8ecb8071040a740930e077cdfb987af",
                 "shasum": ""
             },
             "require": {
@@ -1405,7 +1336,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.21-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1458,7 +1389,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-27T09:28:48+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
@@ -1466,12 +1397,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
-                "reference": "3a79a2226897adae0cab81688fbc5144e2fc53f6"
+                "reference": "6e971c891537eb617a00bb07a43d182a6915faba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/3a79a2226897adae0cab81688fbc5144e2fc53f6",
-                "reference": "3a79a2226897adae0cab81688fbc5144e2fc53f6",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/6e971c891537eb617a00bb07a43d182a6915faba",
+                "reference": "6e971c891537eb617a00bb07a43d182a6915faba",
                 "shasum": ""
             },
             "require": {
@@ -1483,7 +1414,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.21-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1539,7 +1470,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-27T22:11:44+00:00"
+            "time": "2021-01-07T17:09:11+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1547,12 +1478,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "de14691dc88bbbc5535de7f0e32080977dc1d23f"
+                "reference": "f377a3dd1fde44d37b9831d68dc8dea3ffd28e13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/de14691dc88bbbc5535de7f0e32080977dc1d23f",
-                "reference": "de14691dc88bbbc5535de7f0e32080977dc1d23f",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f377a3dd1fde44d37b9831d68dc8dea3ffd28e13",
+                "reference": "f377a3dd1fde44d37b9831d68dc8dea3ffd28e13",
                 "shasum": ""
             },
             "require": {
@@ -1564,7 +1495,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.21-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1616,7 +1547,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-27T09:28:48+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
@@ -1624,12 +1555,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "8c0d39c1526009b97f43beea4cc685bbc353a70b"
+                "reference": "a678b42e92f86eca04b7fa4c0f6f19d097fb69e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/8c0d39c1526009b97f43beea4cc685bbc353a70b",
-                "reference": "8c0d39c1526009b97f43beea4cc685bbc353a70b",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/a678b42e92f86eca04b7fa4c0f6f19d097fb69e2",
+                "reference": "a678b42e92f86eca04b7fa4c0f6f19d097fb69e2",
                 "shasum": ""
             },
             "require": {
@@ -1638,7 +1569,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.21-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1692,7 +1623,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-26T13:35:45+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
@@ -1700,12 +1631,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "54cc82c30ba7ed02bc64f5d010488c159b5f1706"
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/54cc82c30ba7ed02bc64f5d010488c159b5f1706",
-                "reference": "54cc82c30ba7ed02bc64f5d010488c159b5f1706",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/dc3063ba22c2a1fd2f45ed856374d79114998f91",
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91",
                 "shasum": ""
             },
             "require": {
@@ -1714,7 +1645,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.21-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1772,7 +1703,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-27T09:28:48+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -1780,12 +1711,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "e0d43e6e2f909287d2e4e867ca5c131a661f08ef"
+                "reference": "bf99754c6182a126968b1c2709d18548489f27eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/e0d43e6e2f909287d2e4e867ca5c131a661f08ef",
-                "reference": "e0d43e6e2f909287d2e4e867ca5c131a661f08ef",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/bf99754c6182a126968b1c2709d18548489f27eb",
+                "reference": "bf99754c6182a126968b1c2709d18548489f27eb",
                 "shasum": ""
             },
             "require": {
@@ -1797,7 +1728,6 @@
             },
             "type": "library",
             "extra": {
-                "branch-version": "2.3",
                 "branch-alias": {
                     "dev-main": "2.3-dev"
                 },
@@ -1849,7 +1779,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-01T09:26:45+00:00"
+            "time": "2021-01-27T16:27:53+00:00"
         },
         {
             "name": "symfony/string",
@@ -1857,12 +1787,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "99f25957efe05db14a1aa6cff643eca0f83a952c"
+                "reference": "13c9099cdb470223b5863f7d11d17554b2dc6404"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/99f25957efe05db14a1aa6cff643eca0f83a952c",
-                "reference": "99f25957efe05db14a1aa6cff643eca0f83a952c",
+                "url": "https://api.github.com/repos/symfony/string/zipball/13c9099cdb470223b5863f7d11d17554b2dc6404",
+                "reference": "13c9099cdb470223b5863f7d11d17554b2dc6404",
                 "shasum": ""
             },
             "require": {
@@ -1905,7 +1835,7 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony String component",
+            "description": "Provides an object-oriented API to strings and deals with bytes, UTF-8 code points and grapheme clusters in a unified way",
             "homepage": "https://symfony.com",
             "keywords": [
                 "grapheme",
@@ -1929,7 +1859,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-01T09:26:45+00:00"
+            "time": "2021-01-26T09:33:05+00:00"
         },
         {
             "name": "vimeo/psalm",
@@ -1937,12 +1867,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "c47230c690694cd50984fe0dc43c182f219fa1f5"
+                "reference": "03665b9646ba12cab309b16bf819fd62b0888422"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/c47230c690694cd50984fe0dc43c182f219fa1f5",
-                "reference": "c47230c690694cd50984fe0dc43c182f219fa1f5",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/03665b9646ba12cab309b16bf819fd62b0888422",
+                "reference": "03665b9646ba12cab309b16bf819fd62b0888422",
                 "shasum": ""
             },
             "require": {
@@ -2029,24 +1959,24 @@
                 "inspection",
                 "php"
             ],
-            "time": "2021-01-03T16:56:04+00:00"
+            "time": "2021-02-03T06:09:58+00:00"
         },
         {
             "name": "webmozart/assert",
-            "version": "1.9.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
-                "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
+                "url": "https://github.com/webmozarts/assert.git",
+                "reference": "9c89b265ccc4092d58e66d72af5d343ee77a41ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
-                "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/9c89b265ccc4092d58e66d72af5d343ee77a41ae",
+                "reference": "9c89b265ccc4092d58e66d72af5d343ee77a41ae",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.3 || ^7.0 || ^8.0",
+                "php": "^7.2 || ^8.0",
                 "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
@@ -2054,9 +1984,14 @@
                 "vimeo/psalm": "<3.9.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.36 || ^7.5.13"
+                "phpunit/phpunit": "^8.5.13"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.10-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Webmozart\\Assert\\": "src/"
@@ -2078,7 +2013,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2020-07-08T17:02:28+00:00"
+            "time": "2021-01-18T12:52:36+00:00"
         },
         {
             "name": "webmozart/path-util",
