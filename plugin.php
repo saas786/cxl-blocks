@@ -26,11 +26,11 @@ define( 'CXL_BLOCKS_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 define( 'CXL_BLOCKS_PLUGIN_FILE', __FILE__ );
 define( 'CXL_BLOCKS_PLUGIN_BASE', plugin_basename( __FILE__ ) );
 
-# ------------------------------------------------------------------------------
-# Compatibility check.
-# ------------------------------------------------------------------------------
-#
-# Check that the site meets the minimum requirements for the plugin.
+// ------------------------------------------------------------------------------
+// Compatibility check.
+// ------------------------------------------------------------------------------
+//
+// Check that the site meets the minimum requirements for the plugin.
 
 if ( version_compare( $GLOBALS['wp_version'], '5.6', '<' ) || version_compare( PHP_VERSION, '7.4', '<' ) ) {
 
@@ -52,4 +52,4 @@ function cxl_blocks() {
 
 }
 
-add_action( 'plugins_loaded', 'cxl_blocks', 2 );
+add_action( 'cxl_common_lib_loaded', 'cxl_blocks', 0 );
