@@ -13,7 +13,7 @@
     "i18n:pot": "npx wpi18n makepot --domain-path=/public/lang",
     "export": "npx mix --mix-config=webpack.mix.export.js --production",
     "build": "npm run prod && npm run i18n && npm run export",
-    "pre-build": "composer install --no-dev -o",
+    "pre-build": "composer update --prefer-dist --no-dev -o",
     "post-build": "composer update"
   },
   "devDependencies": {
