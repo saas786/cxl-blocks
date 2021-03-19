@@ -9,7 +9,7 @@
 
 namespace CXL\Blocks\Layout\Content;
 
-use Hybrid\Support\Contracts\Bootable;
+use Hybrid\Contracts\Bootable;
 
 use function CXL\Blocks\get_config;
 

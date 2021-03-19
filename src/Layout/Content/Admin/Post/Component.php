@@ -11,7 +11,7 @@ namespace CXL\Blocks\Layout\Content\Admin\Post;
 
 use CXL\Blocks\Layout\Content\Layouts;
 use CXL\Blocks\Layout\Content as ContentLayout;
-use Hybrid\Support\Contracts\Bootable;
+use Hybrid\Contracts\Bootable;
 
 use function CXL\Blocks\Layout\Content\get_post_layout;
 use function CXL\Blocks\Layout\Content\Admin\form_field_layout;

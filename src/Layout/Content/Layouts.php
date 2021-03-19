@@ -10,7 +10,7 @@
 namespace CXL\Blocks\Layout\Content;
 
 use CXL\Blocks\Layout\Layouts as Base;
-use Hybrid\Support\Tools\Collection;
+use Hybrid\Tools\Collection;
 
 /**
  * Loop Layouts class.

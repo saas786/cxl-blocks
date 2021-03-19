@@ -9,7 +9,7 @@
 
 namespace CXL\Blocks\Layout;
 
-use Hybrid\Support\Tools\Collection;
+use Hybrid\Tools\Collection;
 
 /**
  * Layouts class.
