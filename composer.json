@@ -1,6 +1,7 @@
 {
     "name": "cxl/blocks",
     "type": "wordpress-plugin",
+    "description": "Blocks for CXL Projects, such as Content Layout etc.",
     "authors": [
         {
             "name": "Leho Kraav",
@@ -28,5 +29,6 @@
     "config": {
         "optimize-autoloader": true
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
