@@ -11,7 +11,7 @@
 namespace CXL\Blocks\Layout;
 
 use CXL\Blocks\Tools\ServiceProvider;
-use Hybrid\Support\Tools\Collection;
+use Hybrid\Tools\Collection;
 
 use CXL\Blocks\Layout\Content;
 

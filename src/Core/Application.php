@@ -18,7 +18,7 @@ namespace CXL\Blocks\Core;
 
 use Hybrid\Container\Container;
 use Hybrid\Contracts\Core\Application as ApplicationContract;
-use Hybrid\Support\Contracts\Bootable;
+use Hybrid\Contracts\Bootable;
 use CXL\Blocks\Proxies\Proxy;
 use CXL\Blocks\Proxies\App;
 

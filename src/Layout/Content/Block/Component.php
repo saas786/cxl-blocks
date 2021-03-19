@@ -9,7 +9,7 @@
 
 namespace CXL\Blocks\Layout\Content\Block;
 
-use Hybrid\Support\Contracts\Bootable;
+use Hybrid\Contracts\Bootable;
 use CXL\Blocks\Layout\Content\Layouts;
 
 use function CXL\Blocks\Layout\Content\get_meta_key;
