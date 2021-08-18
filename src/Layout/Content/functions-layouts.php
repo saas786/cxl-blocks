@@ -11,7 +11,7 @@
 
 namespace CXL\Blocks\Layout\Content;
 
-use Hybrid\Plugin\App;
+use Hybrid\App;
 
 /**
  * Returns an instance of a layouts Collection.

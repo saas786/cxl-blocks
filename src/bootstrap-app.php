@@ -13,9 +13,9 @@
 // ------------------------------------------------------------------------------
 //
 // Creates the one true instance of the Hybrid Core application. You may access
-// this instance via the `\Hybrid\app()` function or `\Hybrid\Plugin\App` static class
+// this instance via the `\Hybrid\app()` function or `\Hybrid\App` static class
 // after the application has booted.
-$cxl_blocks = new \CXL\Blocks\Core\Application();
+$cxl_blocks = \Hybrid\booted() ? \Hybrid\app() : new \Hybrid\Core\Application();
 
 // ------------------------------------------------------------------------------
 // Register service providers with the application.
