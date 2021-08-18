@@ -11,7 +11,7 @@
 
 namespace CXL\Blocks;
 
-use CXL\Blocks\Tools\ServiceProvider;
+use Hybrid\Core\ServiceProvider;
 
 /**
  * App service provider.
@@ -31,9 +31,9 @@ class Provider extends ServiceProvider {
 	 */
 	public function register() {
 
-		$this->cxl_blocks->instance( 'cxl/blocks/path', CXL_BLOCKS_PLUGIN_DIR );
+		$this->app->instance( 'cxl/blocks/path', CXL_BLOCKS_PLUGIN_DIR );
 
-		$this->cxl_blocks->singleton( 'cxl/blocks/mix', function( $app ) {
+		$this->app->singleton( 'cxl/blocks/mix', function( $app ) {
 			$path = $app->resolve( 'cxl/blocks/path' );
 			$file = "{$path}/public/mix-manifest.json";
 

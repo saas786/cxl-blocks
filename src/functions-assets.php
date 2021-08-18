@@ -12,7 +12,7 @@ namespace CXL\Blocks;
 
 use function CXL\Blocks\Layout\Content\get_meta_key;
 
-use Hybrid\Plugin\App;
+use Hybrid\App;
 
 /**
  * Enqueue scripts/styles for the editor.

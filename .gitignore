@@ -10,6 +10,5 @@ node_modules/
 vendor/
 .idea
 public/
-resources/lang
 cxl-blocks
 cxl-blocks.zip
