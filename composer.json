@@ -19,7 +19,7 @@
     },
     "require-dev": {
         "cxl/phpcs-ruleset": "dev-master",
-        "vimeo/psalm": "^4.6.4"
+        "vimeo/psalm": "^4.9.3"
     },
     "autoload": {
         "psr-4": {
